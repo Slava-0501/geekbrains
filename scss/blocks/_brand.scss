@@ -1,0 +1,42 @@
+.brand {
+    margin: 0 0 65px 0;
+    display: flex;
+    background-color: $pink-bcg;
+  }
+  
+  .brand__img {
+    height: 764px;
+    width: 800px;
+  }
+  
+  .brand__title-wrp {
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand__decor {
+    width: 12px;
+    height: 92px;
+    background-color: $dark-pink-color-item-price;
+    border: none;
+    margin: 0 16px 0 0;
+  }
+  .brand__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+  }
+  
+  .brand__title-lower {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    display: block;
+  }
+  
+  .brand__title-pink {
+    color: $pink-color;
+  }

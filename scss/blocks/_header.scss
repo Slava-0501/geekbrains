@@ -1,0 +1,122 @@
+.header {
+    position: relative;
+    background-color: $black-bkg;
+  }
+  
+  .header__wrp {
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    justify-content: space-between;
+  }
+  
+  .header__container {
+    display: flex;
+  }
+  
+  .header__logo {
+    margin: 0 41px 0 0;
+  }
+  
+  .header__search {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header__search-input {
+    border: 2px solid $pink-color;
+    border-radius: 5px;
+    outline: none;
+    background: $pink-color;
+    color: $white-color-text;
+    font-size: 16px;
+  }
+  
+  .header__search-input:hover,
+  .header__search-input:focus {
+    outline: 2px solid red;
+  }
+  
+  .header__search-button{
+    background: none;
+    border: none;
+  }
+  
+  
+  .header__search-icon {
+  fill: #e8e8e8;
+  }
+  
+  .header__search-icon:hover {
+    fill: #f16d7f;
+  }
+  
+  .header__link {
+    margin: 0 0 0 33px;
+  }
+  
+  .header__menu-list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__nav {
+    position: absolute;
+    width: 232px;
+    height:764px;
+    background-color: white;
+    top: 100%;
+    right: 0;
+    -webkit-box-shadow: -10px 8px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -10px 8px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: -10px 8px 10px 2px rgba(34, 60, 80, 0.2);
+    display: none;
+  }
+  
+  .header__nav-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 37px 0 24px 34px;
+  }
+  
+  .header__burger {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .header__burger-icon:hover +.header__nav,
+  .header__burger-icon:focus +.header__nav {
+    display: block;
+  }
+  
+  .header__nav:hover {
+    display: block;
+  }
+  
+  .header__burger-icon:hover {
+    fill: #f18b99;
+    cursor: pointer;
+  }
+  
+  .header__burger-icon {
+    fill: #e8e8e8;
+  }
+  
+  .header__person-link {
+    fill: #e8e8e8;
+  }
+  
+  .header__person-link:hover {
+    fill: #f18b99;
+  }
+  
+  .header__basket-link {
+    fill: #e8e8e8;
+  }
+  
+  .header__basket-link:hover {
+    fill: #f18b99;
+  }

@@ -1,0 +1,43 @@
+.footer {
+    height: 79px;
+    background-color: $black-bkg;
+}
+
+.footer__icon {
+    padding: 24px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list {
+    display: flex;
+    width: 147px;
+    height: 32px;
+    gap: 8px;
+}
+
+.footer__copyright {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: $white-color-text;
+}
+
+.footer__reference {
+    width: 32px;
+    height: 32px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.footer__reference:hover {
+    background: $dark-pink-color-item-price;
+}
+
+.footer__img:hover {
+    fill: white
+}

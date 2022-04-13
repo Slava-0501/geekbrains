@@ -1,0 +1,113 @@
+.products {
+    margin: 96px 0 0 0;
+}
+
+.products__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.products__sub-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    margin: 0 0 48px 0;
+    color: $gray-color-products-sub-title;
+}
+
+.products__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products__item {
+    height: 581px;
+    width: 360px;
+    flex-direction: column;
+    margin: 0 0 30px 0;
+    position: relative;
+}
+
+.products__busket-img {
+    height: 23px;
+    width: 25px;
+    border-radius: 0px;
+}
+
+.products__basket-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 0 10px;
+}
+
+.products__item:hover,
+.products__item:hover {
+    display: block;
+    border: 1px solid #ffffff;
+}
+
+
+.products__item-title {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    padding: 25px 0 12px 0;
+}
+
+.products__item-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: $dark-gray-color-item-text;
+    padding: 0 0 18px 0;
+}
+
+.products__item-price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: $dark-pink-color-item-price;
+}
+
+.products__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0 191px 0;
+}
+
+.products__button-text:hover {
+    color: $white-color-text;
+    cursor: pointer;
+    background-color:$dark-pink-color-item-price;
+}
+
+.products__button-text:active {
+    color:$white-color-text;
+    background-color: $dark-pink-color-item-price;
+}
+
+
+.products__button-text {
+    height: 47px;
+    width: 211px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: 1px solid #ff6a6a;
+    color: $dark-pink-color-item-price;
+}

@@ -1,0 +1,16 @@
+.overlay {
+    width: 100%;
+    min-height: 420px;
+    background: #3a3838db;
+    position: absolute;
+    top: 0;
+}
+
+.overlay {
+    display: none;
+}
+
+.overlay:hover {
+    display: block;
+    border: 1px solid #ffffff;
+}

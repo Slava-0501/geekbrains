@@ -1,0 +1,31 @@
+.button {
+    width: 138px;
+    height: 43px;
+    background-color: #3a3838db;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover {
+    background-color: $dark-pink-color-item-price;
+    cursor: pointer;
+}
+
+.button:focus {
+    border: 1px solid red
+}
+
+.button:active {
+    background-color: $dark-pink-color-item-price;
+}
+
+.button {
+    display: none;
+}
+
+.button:hover {
+    display: block;
+    border: 1px solid #ffffff;
+}
