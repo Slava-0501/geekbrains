@@ -1,0 +1,95 @@
+.subscribe {
+    height: 448px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/subscribe-img.jpg);
+}
+
+.subscribe__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.subscribe__list {
+    height: 224px;
+    width: 359px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 97px 0 0 0;
+}
+
+.subscribe__inscription {
+    height: 99px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+
+.subscribe__form {
+    height: 142px;
+    width: 557px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px 0 0 0;
+}
+
+.subscribe__heading {
+    height: 61px;
+    padding: 0 0 32px 0;
+}
+
+.subscribe__title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+.subscribe__sub-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.subscribe__form-submit {
+    display: flex;
+}
+
+.subscribe__input {
+    padding: 0 0 0 27px;
+    text-align: left;
+    height: 49px;
+    width: 322px;
+    border: none;
+    background: #E1E1E1;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.subcribe__button {
+    padding: 7px 15px 6px 8px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: none;
+    background: #E05C6E;
+    color: white;
+}
+
+.subcribe__button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
