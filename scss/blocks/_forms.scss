@@ -5,6 +5,9 @@
     text-transform: uppercase;
     margin: 59px 0 0 0;
     color: $dark-pink-color-item-price;
+    @include tablet {
+        margin-left: 16px;
+    }
 }
 
 .forms__regitration {
@@ -12,6 +15,23 @@
     justify-content: center;
     gap: 180px;
     margin: 124px 0 0 0;
+    @include tablet {
+        margin: 100px 16px 0 16px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0;
+        width: 100%;
+    }
+    @include mobile {
+        flex-direction: column;
+        margin: 100px 9px 0 9px;
+    }
+}
+
+.forms__list {
+    @include tablet{
+        width: 50%;
+    }
 }
 
 .forms__list-name {
@@ -81,6 +101,9 @@
     align-items: center;
     gap: 20px;
     margin: 0 0 86px 0;
+    @include mobile {
+        margin: 0 0 40px 0;
+    }
 }
 
 .forms__list-input:hover,
@@ -103,6 +126,12 @@
     height: 334px;
     display: flex;
     flex-direction: column;
+    @include tablet {
+        height: 337px;
+        width: 50%;
+        margin: 0 0 100px 0;
+    }
+
 }
 
 .forms__perks-title {
@@ -113,6 +142,17 @@
     text-align: left;
     text-transform: uppercase;
     margin: 0 0 22px 0;
+    @include tablet {
+        padding: 0 0 0 20px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    @include mobile {
+        padding: 0 0 0 9px;
+        height: 19px;
+        width: 179px;
+    }
 }
 
 .forms__perks-text {
@@ -123,6 +163,17 @@
     line-height: 29px;
     letter-spacing: 0em;
     margin: 0 0 21px 0;
+    @include tablet {
+        padding: 0 0 0 20px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+        width: 354px;
+        height: 57px;
+    }
+    @include mobile {
+        padding: 0 0 0 9px;
+    }
 }
 
 .forms__perks-item {
@@ -132,7 +183,19 @@
     line-height: 29px;
     letter-spacing: 0em;
     padding: 0 0 16px 43px;
+    @include tablet {
+        margin-left: 20px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+        height: 37px;
+        width: 311px;
+    }
+    @include mobile {
+        margin: 0 0 0 9px;
+    }
 }
+
 
 .forms__perks-item:before {
     content: '';

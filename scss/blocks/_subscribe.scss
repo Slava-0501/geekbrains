@@ -1,8 +1,16 @@
 .subscribe {
     height: 448px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(../img/subscribe-img.jpg);
+    @include tablet {
+        height: 693px;
+    }
+    @include mobile {
+        height: 550px;
+        width: 100%;
+    }
 }
 
 .subscribe__container {
@@ -10,6 +18,10 @@
     justify-content: center;
     align-items: center;
     gap: 200px;
+    @include tablet {
+        flex-direction: column;
+        gap:0;
+    }
 }
 
 .subscribe__list {
@@ -20,6 +32,9 @@
     align-items: center;
     flex-direction: column;
     padding: 97px 0 0 0;
+    @include tablet {
+        padding: 54px 0 0 0;
+    }
 }
 
 .subscribe__inscription {
@@ -40,11 +55,23 @@
     align-items: center;
     flex-direction: column;
     margin: 150px 0 0 0;
+    @include tablet {
+        margin: 48px 0 0 0;
+    }
+    @include mobile {
+        margin: 58px 0 0 0;
+        height: 123px;
+        width: 341px;
+    }
 }
 
 .subscribe__heading {
     height: 61px;
     padding: 0 0 32px 0;
+    @include mobile {
+        height: 54px;
+        padding: 0 0 22px 0;
+    }
 }
 
 .subscribe__title {
@@ -53,6 +80,11 @@
     font-weight: 700;
     line-height: 40px;
     text-align: center;
+    @include mobile {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 37px;
+    }
 }
 
 .subscribe__sub-title {
@@ -60,6 +92,11 @@
     font-weight: 400;
     line-height: 30px;
     text-align: center;
+    @include mobile {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
 }
 
 .subscribe__form-submit {
@@ -78,6 +115,11 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
+    @include mobile {
+        height: 46px;
+        width: 220px;
+        
+    }
 }
 
 .subcribe__button {

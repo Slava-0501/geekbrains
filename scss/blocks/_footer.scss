@@ -1,6 +1,9 @@
 .footer {
     height: 79px;
     background-color: $black-bkg;
+    @include mobile {
+        height: 143px;
+    }
 }
 
 .footer__icon {
@@ -8,6 +11,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include tablet {
+        margin: 0 32px 0 32px;
+    }
+    @include mobile {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .footer__list {
@@ -15,6 +26,9 @@
     width: 147px;
     height: 32px;
     gap: 8px;
+    @include mobile {
+        margin: 23px 0 20px 0;
+    }
 }
 
 .footer__copyright {

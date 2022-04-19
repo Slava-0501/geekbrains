@@ -1,14 +1,24 @@
 .feature {
     height: 341px;
+    width: 100%;
     background-color: $black-bkg;
     display: flex;
     align-items: center;
     justify-content: center;
+    @include tablet {
+        height: 610px;
+    }
 }
 
 .feature__list {
     display: flex;
     justify-content: space-between;
+    @include tablet {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        padding: 48px 0 0 0;
+    }
 }
 
 .feature__item {
@@ -18,6 +28,12 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    @include tablet {
+        padding:  0 0 48px 0;
+    }
+    @include mobile {
+        padding: 0 0 46px 0;
+    }
 }
 
 .feature__item-title {
