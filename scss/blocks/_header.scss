@@ -16,6 +16,9 @@
   
   .header__logo {
     margin: 0 41px 0 0;
+    @include tablet { 
+      margin-left: 16px;
+    }
   }
   
   .header__search {
@@ -30,6 +33,10 @@
     background: $pink-color;
     color: $white-color-text;
     font-size: 16px;
+    @include mobile {
+      font-size: 5px;
+      border-radius: 3px;
+    }
   }
   
   .header__search-input:hover,
@@ -53,6 +60,9 @@
   
   .header__link {
     margin: 0 0 0 33px;
+    @include mobile {
+      display: none;
+    }
   }
   
   .header__menu-list {
@@ -85,6 +95,9 @@
   .header__burger {
     border: none;
     background-color: transparent;
+    @include mobile {
+      margin-right: 16px;
+    }
   }
   
   .header__burger-icon:hover +.header__nav,
@@ -115,6 +128,9 @@
   
   .header__basket-link {
     fill: #e8e8e8;
+    @include tablet {
+      margin-right: 41px;
+    }
   }
   
   .header__basket-link:hover {
