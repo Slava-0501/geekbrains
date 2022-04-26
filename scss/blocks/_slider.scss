@@ -1,0 +1,128 @@
+.slider {
+    margin: 41px 0 129px 0;
+}
+
+.slider__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @include mobile {
+        height: 600px;
+        width: 375px;
+
+
+    }
+    
+}
+
+.slider__title {
+    padding: 0 0 12px 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.slider__border {
+    margin: 0 0 12px 0;
+    width: 63px;
+    display: block;
+    border-bottom: 3px solid #F16D7F;
+}
+
+.slider__sub-title {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #4D4D4D;
+    padding: 0 0 48px 0;
+}
+
+.slider__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: center;
+    height: 51px;
+    width: 555px;
+    color: #5E5E5E;
+    margin: 0 0 32px 0;
+    @include mobile {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        height: 105px;
+        width: 326px;
+    }
+}
+
+.slider__value  {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    color: #EF5B70;
+    padding: 0 0 130px 0;
+    @include mobile {
+        padding: 0 0 81px 0;
+    }
+}
+
+.slider__list {
+    display: flex;
+    gap: 40px;
+    @include mobile {
+        gap: 0;
+    }
+}
+
+.slider__form {
+    margin: 0 0 49px 0;
+}
+
+.slider__select {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    border: none;
+    text-transform: uppercase;
+
+}
+
+.slider__select:hover ,
+.slider__select:focus {
+    cursor: pointer;
+    color:#F16D7F
+}
+
+.slider__option:hover ,
+.slider__option:focus {
+    cursor: pointer;
+    color:#F16D7F
+}
+
+.slider__button {
+    padding: 7px 25px;
+    background: transparent;
+    border: 1.5px solid #F16D7F;
+}
+
+.slider__button:hover ,
+.slider__button:focus {
+    cursor:pointer;
+    border: 1.5px solid #6F6E6E;
+    background:#6F6E6E
+}
+
+.slider__button-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+color: #F26376;
+padding: 0 0 0 20px
+}
+
+.slider__icon {
+    fill: #F26376;
+}

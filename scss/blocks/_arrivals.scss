@@ -1,0 +1,43 @@
+.arrivals__list {
+    display: flex;
+    justify-content:space-between;
+    margin: 59px 0 60px 0;
+    @include mobile {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        gap: 32px;
+        margin: 24px 0 85px 0;
+    }
+}
+
+.arrivals__list--title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.arrivals__menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    @include mobile {
+        gap:2px;
+        justify-content: center;
+    }
+}
+
+.arrivals__menu--sub-title {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: #636363;
+}
+
+.arrivals__menu--sub-title-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    color: #F16D7F;
+}
